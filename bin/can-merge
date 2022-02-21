@@ -5,6 +5,7 @@
 const Yargs = require('yargs');
 const chalk = require('chalk');
 const https = require('https');
+console.log('cheete');
 require('dotenv').config();
 
 const watch = require('../utils/watch');
