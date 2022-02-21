@@ -7,7 +7,6 @@ const chalk = require('chalk');
 const https = require('https');
 require('dotenv').config();
 
-console.log(Yargs);
 const watch = require('../utils/watch');
 const getRepo = require('../utils/getRepo');
 const getSHA = require('../utils/getSHA');
