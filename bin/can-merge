@@ -6,7 +6,7 @@ const Yargs = require('yargs');
 const chalk = require('chalk');
 const https = require('https');
 require('dotenv').config();
-console.log(chalk);
+
 
 const watch = require('../utils/watch');
 const getRepo = require('../utils/getRepo');
